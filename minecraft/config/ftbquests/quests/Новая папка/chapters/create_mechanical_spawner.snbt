@@ -1,0 +1,199 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_mechanical_spawner"
+	group: "1F796EEDDC5DED35"
+	icon: {
+		id: "create_mechanical_spawner:mechanical_spawner"
+	}
+	id: "26169DC2A8CCA04B"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4F6DD7B2A0FBFFB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DE7890DA5B69044"
+				table_id: 380174762084956569L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "465DB94DB1B07473"
+				item: { count: 1, id: "create_mechanical_spawner:mechanical_spawner" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F6DD7B2A0FBFFB7"]
+			id: "0E91E173CE057100"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "628ED0862E2CD6C8"
+				table_id: 380174762084956569L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "07F5A487AB314E05"
+				item: { count: 1, id: "create_mechanical_spawner:loot_collector" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "55BB6A118574F452"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50723503292540B4"
+				table_id: 380174762084956569L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "37EE3FE1EC7AB202"
+				item: { count: 1, id: "create_mechanical_spawner:spawn_fluid_random_bucket" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["55BB6A118574F452"]
+			id: "66886A9472BA2D0B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B60A2C48D6FC10B"
+				table_id: 380174762084956569L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3CBD3BE72406C8D5"
+				item: { count: 1, id: "create_mechanical_spawner:spawn_fluid_creeper_bucket" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["55BB6A118574F452"]
+			id: "5D98F4CDC400C8BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A35D41A27A70A19"
+				table_id: 380174762084956569L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2FBE03FA2B78AD19"
+				item: { count: 1, id: "create_mechanical_spawner:spawn_fluid_blaze_bucket" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["55BB6A118574F452"]
+			id: "5919B62FC8679146"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "641FE1C3A7BB3878"
+				table_id: 380174762084956569L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2BA8E8D99B9120F9"
+				item: { count: 1, id: "create_mechanical_spawner:spawn_fluid_slime_bucket" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["55BB6A118574F452"]
+			id: "34C29A2625395350"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6849BE645B8D3008"
+				table_id: 380174762084956569L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6C67100E3A13D46B"
+				item: { count: 1, id: "create_mechanical_spawner:spawn_fluid_spider_bucket" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["55BB6A118574F452"]
+			id: "76D5008C738C58B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67F0775DD2A8EBA2"
+				table_id: 380174762084956569L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2E1FDCB6E14D3F83"
+				item: { count: 1, id: "create_mechanical_spawner:spawn_fluid_zombie_bucket" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["55BB6A118574F452"]
+			id: "3627A843F3541C31"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74380CE57ECFF06F"
+				table_id: 380174762084956569L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "745D81B360020B4D"
+				item: { count: 1, id: "create_mechanical_spawner:spawn_fluid_enderman_bucket" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["55BB6A118574F452"]
+			id: "7398007DDA3605BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "260E84E7EEF95B09"
+				table_id: 380174762084956569L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4524413E1F4F0855"
+				item: { count: 1, id: "create_mechanical_spawner:spawn_fluid_pig_bucket" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["55BB6A118574F452"]
+			id: "1258190FE52035FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72F6368DD017371A"
+				table_id: 380174762084956569L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "548BA14813BD151D"
+				item: { count: 1, id: "create_mechanical_spawner:spawn_fluid_cow_bucket" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersive_aircraft"
+	group: "10C3951D24F14DF3"
+	id: "194FEADEF5FDF4D5"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2D7BAE82C0A98793"
+			tasks: [{
+				id: "19002D8ECEF74072"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "78D3C4942F333AEB"
+			tasks: [{
+				id: "77D84486105D41AF"
+				item: { count: 1, id: "immersive_aircraft:gyrodyne" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "2ED7BEDEE5A8FE63"
+			tasks: [{
+				id: "6B13713AD6859D80"
+				item: { count: 1, id: "immersive_aircraft:quadrocopter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			id: "786AEA62B1BF13BB"
+			tasks: [{
+				id: "0D45DB512D5FF671"
+				item: { count: 1, id: "immersive_aircraft:biplane" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+}

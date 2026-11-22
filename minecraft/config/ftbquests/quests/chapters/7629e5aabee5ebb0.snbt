@@ -1,0 +1,55 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7629e5aabee5ebb0"
+	group: ""
+	icon: {
+		id: "create:clipboard"
+	}
+	id: "7629E5AABEE5EBB0"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			hide_text_until_complete: false
+			id: "2AF261A8921C269B"
+			shape: "gear"
+			size: 4.0d
+			tasks: [{
+				id: "3E5E37E7033B8876"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "factory_blocks:hazard"
+			}
+			id: "5CE76A55B8B85D55"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "16E87D6DDE65E84C"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			icon: {
+				id: "factory_blocks:hazardo"
+			}
+			id: "5531D2DE89242A38"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "6E9BBC5DC69E2D79"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

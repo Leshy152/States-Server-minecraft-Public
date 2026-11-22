@@ -1,0 +1,22 @@
+{
+  "block.denseores.ancient_nether_ore": "Древняя Незерская Руда",
+  "block.denseores.dense_coal_ore": "Плотная Угольная Руда",
+  "block.denseores.dense_copper_ore": "Плотная Медная Руда",
+  "block.denseores.dense_deepslate_coal_ore": "Плотная Глубинная Угольная Руда",
+  "block.denseores.dense_deepslate_copper_ore": "Плотная Глубинная Медная Руда",
+  "block.denseores.dense_deepslate_diamond_ore": "Плотная Глубинная Алмазная Руда",
+  "block.denseores.dense_deepslate_emerald_ore": "Плотная Глубинная Изумрудная Руда",
+  "block.denseores.dense_deepslate_gold_ore": "Плотная Глубинная Золотая Руда",
+  "block.denseores.dense_deepslate_iron_ore": "Плотная Глубинная Железная Руда",
+  "block.denseores.dense_deepslate_lapis_ore": "Плотная Глубинная Лазуритовая Руда",
+  "block.denseores.dense_deepslate_redstone_ore": "Плотная Глубинная Редстоуновая Руда",
+  "block.denseores.dense_diamond_ore": "Плотная Алмазная Руда",
+  "block.denseores.dense_emerald_ore": "Плотная Изумрудная Руда",
+  "block.denseores.dense_gold_ore": "Плотная Золотая Руда",
+  "block.denseores.dense_iron_ore": "Плотная Железная Руда",
+  "block.denseores.dense_lapis_ore": "Плотная Лазуритовая Руда",
+  "block.denseores.dense_nether_gold_ore": "Плотная Незерская Золотая Руда",
+  "block.denseores.dense_nether_quartz_ore": "Плотная Незерская Кварцевая Руда",
+  "block.denseores.dense_redstone_ore": "Плотная Редстоуновая Руда",
+  "itemGroup.denseores": "Плотные Руды"
+}

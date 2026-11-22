@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "127B748B16FBA4C0"
+	group: ""
+	icon: {
+		id: "creeperoverhaul:tiny_cactus"
+	}
+	id: "127B748B16FBA4C0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "168BCFFF85F0AE29"
+		tasks: [{
+			id: "5E93BBCDA6AC68DB"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

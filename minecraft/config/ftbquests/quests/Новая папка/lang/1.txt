@@ -1,0 +1,17 @@
+{
+	chapter.127B748B16FBA4C0.title: "Начало"
+	chapter.1A974397FBDA18E1.title: "Suff and additions"
+	chapter.404DAF403D1BF83D.title: "Enchantment Industry"
+	chapter.41C5AC5A8DAE862B.title: "Всячена"
+	chapter.58FD0DDD46EF0A83.title: "Create"
+	quest.168BCFFF85F0AE29.quest_desc: [
+		"&lЗдесь пока что квестов нету, пользуйтесь достижениями, кнопка &6«L»&r&r"
+		""
+		"Хочу переделать квесты с нуля, если хотите помочь, пишите мне в ДС, просто времени мало свободного, от помощи не откажусь))"
+		""
+		"Если вам все-таки нужны квесты, можете скачать сборку для версии 1.20.1, &nс версией 1.21.1 они не совместимы&r"
+	]
+	quest.168BCFFF85F0AE29.title: "Информация"
+	quest.72910EFCAA5E2C54.quest_desc: ["dfsdfsdfsdfewfer2w3r3r333"]
+	task.5E93BBCDA6AC68DB.title: "Понял"
+}

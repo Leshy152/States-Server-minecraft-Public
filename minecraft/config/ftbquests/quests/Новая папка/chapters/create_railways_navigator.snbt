@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_railways_navigator"
+	group: "1F796EEDDC5DED35"
+	icon: {
+		id: "createrailwaysnavigator:navigator"
+	}
+	id: "53F6CD821318E3A3"
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		id: "162A546C1F6B2CE2"
+		rewards: [{
+			exclude_from_claim_all: true
+			id: "6DECFE9F02CEF869"
+			table_id: 380174762084956569L
+			type: "random"
+		}]
+		tasks: [{
+			id: "5670D406F7C90B58"
+			item: { count: 1, id: "createrailwaysnavigator:navigator" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

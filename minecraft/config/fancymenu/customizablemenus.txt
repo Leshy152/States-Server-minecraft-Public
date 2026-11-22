@@ -1,0 +1,23 @@
+type = customizablemenus
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+
+net.minecraft.client.gui.screens.PauseScreen {
+}
+
+betteradvancements.common.gui.BetterAdvancementsScreen {
+}
+
+net.minecraft.client.gui.screens.options.OptionsScreen {
+}
+
+dev.arbor.extrasoundsnext.gui.CustomSoundOptionsScreen {
+}
+
+top.theillusivec4.curios.client.gui.CuriosScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.InventoryScreen {
+}
+

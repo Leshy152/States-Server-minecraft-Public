@@ -1,0 +1,145 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_fishery_industry"
+	group: "1F796EEDDC5DED35"
+	icon: {
+		id: "createfisheryindustry:mesh_trap"
+	}
+	id: "594F7DE19FFE2E03"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "62A5DAB07FB1A365"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7DE9AB4CA8913F10"
+					table_id: 380174762084956569L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11413B2561FE05E9"
+					table_id: 380174762084956569L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6B68A7DACBD20606"
+				item: { count: 1, id: "createfisheryindustry:mesh_trap" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "26C7E8D13AE63CE3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E39E5BFF14D1BA6"
+					table_id: 380174762084956569L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A665D23C13F8400"
+					table_id: 380174762084956569L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "4CEDA319E661B3A1"
+				item: { count: 1, id: "createfisheryindustry:frame_trap" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62A5DAB07FB1A365"]
+			id: "6F8EAC35E933D1BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A04C80CEB8C19D6"
+				table_id: 380174762084956569L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1BF7788A56C6DFBB"
+				item: { count: 1, id: "createfisheryindustry:smart_mesh" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "19AA3E95C50D7C7A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39902223E366D0CF"
+				table_id: 380174762084956569L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0BBC2AED47F84D37"
+				item: { count: 1, id: "createfisheryindustry:copper_diving_leggings" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19AA3E95C50D7C7A"]
+			id: "10834DD61A46DD02"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2617331B36C137B9"
+				table_id: 380174762084956569L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4750A5A841C2602E"
+				item: { count: 1, id: "createfisheryindustry:netherite_diving_leggings" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "6A58D4A548CAB012"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "027B335F736689B9"
+				table_id: 380174762084956569L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "028E4E375E547192"
+				item: { count: 1, id: "createfisheryindustry:harpoon" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6A58D4A548CAB012"]
+			id: "6522AFD0E136433F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C1DA010E9CEAAD2"
+				table_id: 380174762084956569L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "140D367DF59B28A8"
+				item: { components: { "ftbquests:missing_item": "createfisheryindustry:pneumatic_harpoon_gun" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+}

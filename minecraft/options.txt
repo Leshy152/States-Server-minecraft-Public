@@ -1,0 +1,4 @@
+version:3955
+enableVsync:false
+maxFps:260
+lang:ru_ru

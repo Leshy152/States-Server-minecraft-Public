@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_trading_floor"
+	group: "10C3951D24F14DF3"
+	icon: {
+		id: "trading_floor:trading_depot"
+	}
+	id: "36A4D2EE37556E7C"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "0ECE7E1BE1F930D5"
+		rewards: [{
+			exclude_from_claim_all: true
+			id: "52B2551AB7FE81A5"
+			type: "loot"
+		}]
+		tasks: [{
+			id: "14C00FD884507F5F"
+			item: { count: 1, id: "trading_floor:trading_depot" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

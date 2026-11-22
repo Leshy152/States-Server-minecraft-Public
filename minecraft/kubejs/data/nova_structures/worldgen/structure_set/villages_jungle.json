@@ -1,0 +1,15 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 10387312,
+    "separation": 8,
+    "spacing": 34,
+    "frequency": 0.5
+  },
+  "structures": [
+    {
+      "structure": "nova_structures:village_jungle",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+	icon: {
+		id: "refurbished_furniture:cyan_toilet"
+	}
+	id: "6CB41B735433A41D"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			id: "7F0E38559BD402E4"
+			type: "xp_levels"
+			xp_levels: 3
+		}
+		{
+			count: 5
+			id: "185C8E0005625A04"
+			item: {
+				count: 1
+				id: "refurbished_furniture:sea_salt"
+			}
+		}
+		{ id: "6C70596028ED8B40", item: { count: 1, id: "refurbished_furniture:wheat_flour" } }
+		{
+			count: 3
+			id: "4A562E43E2EBCF4A"
+			item: {
+				count: 1
+				id: "refurbished_furniture:sweet_berry_jam_toast"
+			}
+		}
+		{
+			count: 4
+			id: "6A89C167F77A43F0"
+			item: {
+				count: 1
+				id: "refurbished_furniture:toast"
+			}
+		}
+		{
+			count: 3
+			id: "17408B9F19F0C2AC"
+			item: {
+				count: 1
+				id: "refurbished_furniture:glow_berry_jam_toast"
+			}
+		}
+		{
+			count: 2
+			id: "744625E285680E7B"
+			item: {
+				count: 1
+				id: "refurbished_furniture:raw_vegetable_pizza"
+			}
+		}
+	]
+	use_title: true
+}

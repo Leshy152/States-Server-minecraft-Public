@@ -1,0 +1,541 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mrcrayfishs_furniture"
+	group: "6780AEF11E3AB725"
+	icon: {
+		id: "refurbished_furniture:workbench"
+	}
+	id: "6F95D3CC184AE102"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon_scale: 1.3d
+			id: "7938E7BFECFC9321"
+			rewards: [
+				{
+					count: 4
+					id: "2BF9B99625500B46"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2157AF8F5F80F816"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "0FE7F5FE026F3535"
+				item: { count: 1, id: "refurbished_furniture:light_electricity_generator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7938E7BFECFC9321"]
+			id: "013F4081E05799D3"
+			rewards: [
+				{
+					id: "4925296FF2F2887D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D09F8AC315E2099"
+					table_id: 7832915834051994653L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "57CFE808103CE958"
+				item: { count: 1, id: "refurbished_furniture:workbench" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["013F4081E05799D3"]
+			id: "66882AB9F0D3516D"
+			tasks: [
+				{
+					count: 4L
+					id: "6D69BD6FCD06524A"
+					item: { count: 1, id: "refurbished_furniture:oak_chair" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "512975219D331DB2"
+					item: { count: 1, id: "refurbished_furniture:oak_table" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["013F4081E05799D3"]
+			id: "1CEFC9EC995CA862"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "638874668CE66CFD"
+					table_id: 7832915834051994653L
+					type: "random"
+				}
+				{
+					id: "33F7C3C172A76E15"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "08576966D83705A8"
+				item: { count: 1, id: "refurbished_furniture:oak_drawer" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["013F4081E05799D3"]
+			id: "497337EAD4FD0377"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5FAF6161C19B775D"
+					table_id: 7832915834051994653L
+					type: "random"
+				}
+				{
+					id: "33DABA314D793128"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "1A4BC8CE9069F145"
+				item: { count: 1, id: "refurbished_furniture:white_sofa" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["013F4081E05799D3"]
+			id: "2CC48B6C5882F766"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6AD7D03C3B3C870C"
+					table_id: 7832915834051994653L
+					type: "random"
+				}
+				{
+					id: "7C0F1E0D9B4ACEC2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "1572E55D00BBD763"
+				item: { count: 1, id: "refurbished_furniture:white_stool" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["013F4081E05799D3"]
+			id: "6CF66CB5B1AFB02B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5CD0922C0FB0DCC8"
+					table_id: 7832915834051994653L
+					type: "random"
+				}
+				{
+					id: "100E3D37314A2009"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "7694F14653DBF9BB"
+				item: { count: 1, id: "refurbished_furniture:white_lamp" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["013F4081E05799D3"]
+			id: "4A77BA3035EF0CE6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40323BFF0A4464E2"
+					table_id: 7832915834051994653L
+					type: "loot"
+				}
+				{
+					id: "13D75833B2E2F17A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "037B6A6F62DF55B3"
+				item: { count: 1, id: "refurbished_furniture:oak_light_ceiling_fan" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["013F4081E05799D3"]
+			id: "0AF9D706EDD4C442"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "786E8DF04AD24171"
+					table_id: 7832915834051994653L
+					type: "random"
+				}
+				{
+					id: "41DF789A46578FDD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "7933C1E0ADAAA146"
+				item: { count: 1, id: "refurbished_furniture:oak_storage_cabinet" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["013F4081E05799D3"]
+			id: "69E65FD6C517277E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "75F65D0BBEA01513"
+					table_id: 7832915834051994653L
+					type: "random"
+				}
+				{
+					id: "18CD41EC516862F1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "12E9148EF8A9FA71"
+				item: { count: 1, id: "refurbished_furniture:oak_kitchen_cabinetry" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["013F4081E05799D3"]
+			id: "33D5062C50A0551E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0411E62AAB6897C1"
+					table_id: 7832915834051994653L
+					type: "random"
+				}
+				{
+					id: "1CEB6E9F4E396C4C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "15862209D6F8B82C"
+				item: { count: 1, id: "refurbished_furniture:oak_kitchen_drawer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["013F4081E05799D3"]
+			id: "59C345DAB338A7E9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "543EFA4290916DF6"
+					table_id: 7832915834051994653L
+					type: "random"
+				}
+				{
+					id: "540A1D62D82E80DC"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "1966D11323E70CE4"
+				item: { count: 1, id: "refurbished_furniture:oak_kitchen_sink" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["013F4081E05799D3"]
+			hide_dependency_lines: true
+			id: "704B3A372088EDF6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E5D772210B2DB1A"
+					table_id: 7832915834051994653L
+					type: "random"
+				}
+				{
+					id: "04BEDD8017738630"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1126601BD8440BF5"
+				item: { count: 1, id: "refurbished_furniture:light_fridge" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["013F4081E05799D3"]
+			hide_dependency_lines: true
+			id: "4CC56B5FCF00F7C7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14387F4C23AE6814"
+					table_id: 7832915834051994653L
+					type: "random"
+				}
+				{
+					id: "48D5E7C5C8B1C312"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "45D4F962904B0961"
+				item: { count: 1, id: "refurbished_furniture:light_toaster" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["013F4081E05799D3"]
+			hide_dependency_lines: true
+			id: "27B6C9BD97A3CB28"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C35D8D11ED73AAF"
+					table_id: 7832915834051994653L
+					type: "random"
+				}
+				{
+					id: "75BFA7C7C9506A37"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "3D023963746FA0FB"
+				item: { count: 1, id: "refurbished_furniture:light_microwave" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["013F4081E05799D3"]
+			hide_dependency_lines: true
+			id: "63F06A8C5569424C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1737474BE59617C3"
+					table_id: 7832915834051994653L
+					type: "random"
+				}
+				{
+					id: "0A50516A476C6C2D"
+					type: "xp"
+					xp: 158
+				}
+			]
+			tasks: [{
+				id: "6D77F66ED72F2104"
+				item: { count: 1, id: "refurbished_furniture:light_stove" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["013F4081E05799D3"]
+			hide_dependency_lines: true
+			id: "01E448C4550ECC16"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "432B954767657AA2"
+					table_id: 7832915834051994653L
+					type: "random"
+				}
+				{
+					id: "01B210BF8752DE8B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "61DD87B48FBFE3AD"
+				item: { count: 1, id: "refurbished_furniture:light_range_hood" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["013F4081E05799D3"]
+			hide_dependency_lines: true
+			id: "69E427373A9264AE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4795F25FFAC02E65"
+					table_id: 7832915834051994653L
+					type: "random"
+				}
+				{
+					id: "1008A46569E1CDB2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "367F4471008F6065"
+				item: { count: 1, id: "refurbished_furniture:frying_pan" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["013F4081E05799D3"]
+			hide_dependency_lines: true
+			id: "0D24C8F9582A8602"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "07ADD441DC6DF608"
+					table_id: 7832915834051994653L
+					type: "random"
+				}
+				{
+					id: "3D26C7D2DC260554"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [{
+				id: "60ABCBA239AC99D4"
+				item: { count: 1, id: "refurbished_furniture:recycle_bin" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["013F4081E05799D3"]
+			hide_dependency_lines: true
+			id: "1F260E2D6A07E035"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "42491EE513754275"
+					table_id: 7832915834051994653L
+					type: "random"
+				}
+				{
+					id: "0336ADB078C6775E"
+					type: "xp"
+					xp: 90
+				}
+			]
+			tasks: [{
+				id: "4F944C18F62B6E8F"
+				item: { count: 1, id: "refurbished_furniture:white_grill" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["013F4081E05799D3"]
+			hide_dependency_lines: true
+			id: "48FD120C673329B8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D0BCD7A30C66218"
+					table_id: 7832915834051994653L
+					type: "random"
+				}
+				{
+					id: "502634131FF09CBC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 5
+					id: "62ABA68441B3E594"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C2A8219D6222F8C"
+				item: { count: 1, id: "refurbished_furniture:oak_storage_jar" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+	]
+}

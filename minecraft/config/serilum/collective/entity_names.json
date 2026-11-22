@@ -1,0 +1,16 @@
+{
+  "female_names": [
+    "María", "Laura", "Andrea", "Silvina", "Verónica", "Gabriela", "Patricia", "Mónica", "Susana", "Karina",
+    "Claudia", "Romina", "Luciana", "Carla", "Roxana", "Lorena", "Cecilia", "Florencia", "Juliana", "Daniela",
+    "Sandra", "Paola", "Anabella", "Noelia", "Marina", "Soledad", "Virginia", "Vanesa", "Graciela", "Lilian",
+    "Valeria", "Natalia", "Sabrina", "Milagros", "Alejandra", "Carolina", "Jimena", "Melina", "Sofía", "Belén",
+    "Eliana", "Estela", "Alicia", "Gisella", "Diana", "Elisa", "Norma", "Viviana", "Marta", "Clara"
+  ],
+  "male_names": [
+    "Carlos", "Juan", "Jorge", "Ricardo", "Alejandro", "Luis", "Marcelo", "Daniel", "Pablo", "Roberto",
+    "Gustavo", "Héctor", "Fernando", "Raúl", "Adrián", "Gabriel", "Cristian", "Diego", "Eduardo", "Sergio",
+    "Miguel", "Lucas", "Martín", "Nicolás", "Matías", "Ramiro", "Mario", "Julián", "Esteban", "Fabián",
+    "Leandro", "Agustín", "Rubén", "Andrés", "Federico", "Ezequiel", "Ignacio", "Emiliano", "Maximiliano", "Tomás",
+    "Lautaro", "Sebastián", "Hernán", "Rodrigo", "Iván", "Enzo", "Oscar", "Damián", "Facundo", "Bruno"
+  ]
+}

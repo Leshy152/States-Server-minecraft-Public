@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 6,
+  "currentVersion": "5.1",
+  "modpackName": "Create: Vanilla+",
+  "modpackAuthor": "Pav",
+  "modpackReleaseType": "stable",
+  "githubRepo": "https://raw.githubusercontent.com/Pavelower145/CreateVanilla-/main/",
+  "advanced": {
+    "updateCheckerType": 2,
+    "addButton": true,
+    "mainMenuCreditsIntegration": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Name Tag Tweaks -> Config",
+	"Enable Name Tag Tweaks": {
+		"//": "Whether Name Tag Tweaks is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"droppedNameTagbyEntityKeepsNameValue": {
+		"//": "If enabled, any name tag that drops on an entity's death will keep its named value.",
+		"value": true
+	},
+	"enableNameTagCommand": {
+		"//": "If enabled, adds the /nametag <name> command. Used to change the name value without an anvil.",
+		"value": true
+	},
+	"nameTagCommandReplaceUnderscoresWithSpaces": {
+		"//": "If enabled, replaces underscores with spaces when using the /nametag command.",
+		"value": true
+	}
+}

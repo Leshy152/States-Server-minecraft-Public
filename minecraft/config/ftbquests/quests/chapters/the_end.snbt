@@ -1,0 +1,664 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "0439EE228A7D0B2A"
+	icon: {
+		id: "minecraft:end_portal_frame"
+	}
+	id: "102CC7D3F03B817A"
+	images: [
+		{
+			height: 5.0d
+			id: "79ECD2D7830AC7E8"
+			image: "kubejs:textures/gui/enderdragon.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 4.342857142857163d
+			y: 1.689285714285731d
+		}
+		{
+			height: 3.0d
+			id: "7953C978005173BB"
+			image: "kubejs:textures/gui/shulker.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.200000000000024d
+			y: -6.08622448979591d
+		}
+		{
+			height: 4.0d
+			id: "032FF48D0DF212C0"
+			image: "kubejs:textures/gui/chorus_plant.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.021428571428594d
+			y: -5.014795918367334d
+		}
+		{
+			height: 3.5d
+			id: "23096C66642DDE43"
+			image: "kubejs:textures/gui/enderman.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: -3.13214285714286d
+			y: 0.7658163265306257d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["189C669F91396B99"]
+			icon: {
+				id: "minecraft:end_stone"
+			}
+			id: "37BB4AFA61E51565"
+			rewards: [
+				{
+					count: 16
+					id: "3C5014FC5A766942"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7670FB621A188A6D"
+					item: {
+						count: 1
+						id: "minecraft:spectral_arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "2CF6CFAAC2CDD274"
+					item: {
+						count: 1
+						id: "minecraft:carved_pumpkin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					id: "minecraft:ender_eye"
+				}
+				id: "178B6C9093C5257B"
+				type: "dimension"
+			}]
+			x: -0.3214285714285552d
+			y: -1.2857142857142776d
+		}
+		{
+			dependencies: ["37BB4AFA61E51565"]
+			id: "72DC1CF0BA221F7F"
+			rewards: [
+				{
+					id: "65DDFE075CC6210D"
+					item: {
+						count: 1
+						id: "minecraft:dragon_head"
+					}
+					type: "item"
+				}
+				{
+					id: "4A33E9725C35F127"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 64
+					id: "047F29F1A76E7882"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4DE4A6EE22E1E94C"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7A2969F41C108B6C"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.75d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: {
+					id: "minecraft:dragon_head"
+				}
+				id: "1371A0D7C0BF0D8F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.2714285714285936d
+			y: -0.4892857142857068d
+		}
+		{
+			id: "189C669F91396B99"
+			tasks: [{
+				count: 12L
+				id: "1847328FEC4BB333"
+				item: { count: 1, id: "minecraft:ender_eye" }
+				type: "item"
+			}]
+			x: -1.714285714285694d
+			y: 0.28214285714286547d
+		}
+		{
+			dependencies: ["72DC1CF0BA221F7F"]
+			id: "1025BA918A159D6E"
+			rewards: [
+				{
+					id: "73011DE66A84C506"
+					item: {
+						count: 1
+						id: "minecraft:ender_chest"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "312D8E8BBA4869E5"
+					item: {
+						count: 1
+						id: "minecraft:purpur_block"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "411EA757DAC22B23"
+					item: {
+						count: 1
+						id: "minecraft:end_rod"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:purpur_block"
+				}
+				id: "24250A3AE7FE41AA"
+				structure: "minecraft:end_city"
+				type: "structure"
+			}]
+			x: 3.400000000000027d
+			y: -2.6892857142857096d
+		}
+		{
+			dependencies: ["72DC1CF0BA221F7F"]
+			id: "063E94FB37BBC367"
+			rewards: [
+				{
+					count: 64
+					id: "092E7C69301B635C"
+					item: {
+						count: 1
+						id: "minecraft:firework_rocket"
+					}
+					type: "item"
+				}
+				{
+					id: "72D68B9525A09CAE"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:unbreaking": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "7A3BBD8010E3C515"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:mending": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "30FED88E75F863BC"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "31126723516767DB"
+				item: { count: 1, id: "minecraft:elytra" }
+				type: "item"
+			}]
+			x: 4.664285714285732d
+			y: -0.9892857142856997d
+		}
+		{
+			dependencies: ["1025BA918A159D6E"]
+			dependency_requirement: "one_completed"
+			id: "47041550A7B41139"
+			rewards: [
+				{
+					id: "5EBB7C9CE76C1A3D"
+					item: {
+						count: 1
+						id: "minecraft:shulker_box"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7D11F64FA79A9B54"
+					item: {
+						count: 1
+						id: "minecraft:end_stone_bricks"
+					}
+					type: "item"
+				}
+				{
+					id: "6775A112BA5B74E8"
+					item: {
+						components: {
+							"ftbquests:missing_item": "twilightforest:ender_bow"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "546E44E8B9A05757"
+				item: { count: 1, id: "minecraft:shulker_shell" }
+				type: "item"
+			}]
+			x: 5.257142857142881d
+			y: -2.7178571428571345d
+		}
+		{
+			dependencies: ["1025BA918A159D6E"]
+			id: "6391260250B8BB14"
+			rewards: [
+				{
+					count: 16
+					id: "2B6E3AC88B909883"
+					item: {
+						count: 1
+						id: "minecraft:popped_chorus_fruit"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "37E8CAF2C89603E7"
+					item: {
+						count: 1
+						id: "minecraft:phantom_membrane"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "29D5FE0A42FB3159"
+				item: { count: 1, id: "minecraft:chorus_fruit" }
+				type: "item"
+			}]
+			x: 4.028571428571453d
+			y: -4.060714285714283d
+		}
+		{
+			dependencies: ["37BB4AFA61E51565"]
+			id: "458A4283928ACE92"
+			rewards: [
+				{
+					id: "261C1C5DB99E3BB8"
+					item: {
+						count: 1
+						id: "endersdelight:endstone_stove"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "55F5604BB4886CF8"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "6D5A48318A60A8CD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2803FC25D69A5A73"
+					item: { count: 1, id: "endersdelight:endstone_stove" }
+					type: "item"
+				}
+				{
+					id: "09CB0833D1397CB4"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					type: "item"
+				}
+			]
+			x: -1.8035714285714306d
+			y: -3.107142857142854d
+		}
+		{
+			dependencies: ["458A4283928ACE92"]
+			id: "7D9D4E3C481F2D1A"
+			rewards: [
+				{
+					count: 3
+					id: "4A1C176F82773860"
+					item: {
+						count: 1
+						id: "endersdelight:chorus_stew"
+					}
+					type: "item"
+				}
+				{
+					id: "4684450244ACEDE7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "07CEA7B4018275D6"
+				item: { count: 1, id: "endersdelight:chorus_stew" }
+				type: "item"
+			}]
+			x: 0.028571428571446233d
+			y: -3.7178571428571345d
+		}
+		{
+			dependencies: ["458A4283928ACE92"]
+			id: "55FC58BB3AC76089"
+			rewards: [
+				{
+					count: 15
+					id: "5D09BAE6D24C9729"
+					item: {
+						count: 1
+						id: "endersdelight:chorus_juice"
+					}
+					type: "item"
+				}
+				{
+					id: "5DE646E771B91D84"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "6759AB48002E46B6"
+				item: { count: 1, id: "endersdelight:chorus_juice" }
+				type: "item"
+			}]
+			x: -1.2857142857142705d
+			y: -4.889285714285705d
+		}
+		{
+			dependencies: ["458A4283928ACE92"]
+			id: "77A992DEBAE25121"
+			rewards: [
+				{
+					count: 16
+					id: "177076E1A5172867"
+					item: {
+						count: 1
+						id: "endersdelight:strange_eclair"
+					}
+					type: "item"
+				}
+				{
+					id: "628CE067212B6312"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+			tasks: [{
+				id: "25F88E7C55734001"
+				item: { count: 1, id: "endersdelight:strange_eclair" }
+				type: "item"
+			}]
+			x: -4.428571428571416d
+			y: -4.146428571428565d
+		}
+		{
+			dependencies: ["458A4283928ACE92"]
+			id: "359234274911D344"
+			rewards: [
+				{
+					count: 16
+					id: "7A455A6B78647A12"
+					item: {
+						count: 1
+						id: "endersdelight:shulker_mollusk"
+					}
+					type: "item"
+				}
+				{
+					id: "1A875B7B60DF1092"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [{
+				id: "0ED6B7EC17170036"
+				item: { count: 1, id: "endersdelight:shulker_mollusk" }
+				type: "item"
+			}]
+			x: -3.2857142857142776d
+			y: -1.9178571428571374d
+		}
+		{
+			dependencies: ["458A4283928ACE92"]
+			id: "41CE3E279EA65D95"
+			rewards: [
+				{
+					id: "7A784C06CE04F1F1"
+					item: {
+						count: 1
+						id: "minecraft:dragon_head"
+					}
+					type: "item"
+				}
+				{
+					id: "38DF2B87704D786F"
+					item: {
+						count: 1
+						id: "minecraft:elytra"
+					}
+					type: "item"
+				}
+				{
+					id: "6FF6D3E620FAA8F9"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [
+				{
+					id: "42C4C26CD550F27C"
+					item: { count: 1, id: "endersdelight:chorus_juice" }
+					type: "item"
+				}
+				{
+					id: "025DA19B9B9EF97E"
+					item: { count: 1, id: "endersdelight:uncanny_cookies" }
+					type: "item"
+				}
+				{
+					id: "05AF671427DA90F7"
+					item: { count: 1, id: "endersdelight:strange_eclair" }
+					type: "item"
+				}
+				{
+					id: "7B3148ADBE69FACF"
+					item: { count: 1, id: "endersdelight:chorus_pie" }
+					type: "item"
+				}
+				{
+					id: "7BC2F24022683581"
+					item: { count: 1, id: "endersdelight:chorus_stew" }
+					type: "item"
+				}
+				{
+					id: "75CEB0BF4E7527F5"
+					item: { count: 1, id: "endersdelight:crispy_skewer" }
+					type: "item"
+				}
+				{
+					id: "132AB9C1191E5699"
+					item: { count: 1, id: "endersdelight:crawling_sandwich" }
+					type: "item"
+				}
+				{
+					id: "7DFDDE81001784DA"
+					item: { count: 1, id: "endersdelight:twisted_cereal" }
+					type: "item"
+				}
+				{
+					id: "7F389E6FF89FE4D8"
+					item: { count: 1, id: "endersdelight:endermite_stew" }
+					type: "item"
+				}
+				{
+					id: "33380768CD8738C4"
+					item: { count: 1, id: "endersdelight:pearl_pasta" }
+					type: "item"
+				}
+				{
+					id: "180FEA19C242EE18"
+					item: { count: 1, id: "endersdelight:stuffed_shulker_bowl" }
+					type: "item"
+				}
+				{
+					id: "0E2B917D8CF9EAB4"
+					item: { count: 1, id: "endersdelight:stuffed_shulker" }
+					type: "item"
+				}
+			]
+			x: -2.914285714285711d
+			y: -5.603571428571421d
+		}
+		{
+			dependencies: ["72DC1CF0BA221F7F"]
+			id: "2D531B9AE205B17F"
+			rewards: [{
+				id: "05D45412AF2FF3EA"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					id: "minecraft:grass_block"
+				}
+				id: "31632768502F6EB3"
+				type: "dimension"
+			}]
+			x: 1.200000000000017d
+			y: -2.6607142857142776d
+		}
+		{
+			dependencies: ["72DC1CF0BA221F7F"]
+			id: "2ECB0485273F7472"
+			rewards: [
+				{
+					id: "77B976233F02782C"
+					item: {
+						count: 1
+						id: "minecraft:glow_item_frame"
+					}
+					type: "item"
+				}
+				{
+					id: "646CA058970570FF"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [{
+				id: "6DB124C75FD4C7EA"
+				item: { count: 1, id: "minecraft:dragon_egg" }
+				type: "item"
+			}]
+			x: 0.842857142857163d
+			y: 0.6535714285714391d
+		}
+		{
+			dependencies: ["1025BA918A159D6E"]
+			id: "6072EF07268F4CA4"
+			rewards: [
+				{
+					count: 32
+					id: "25806CF07B46C079"
+					item: {
+						count: 1
+						id: "minecraft:shulker_shell"
+					}
+					type: "item"
+				}
+				{
+					id: "5140478BBB60CCE7"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [{
+				entity: "minecraft:shulker"
+				icon: {
+					id: "minecraft:shulker_box"
+				}
+				id: "504B17411738A8F1"
+				type: "kill"
+				value: 20L
+			}]
+			x: 2.457142857142884d
+			y: -4.11785714285714d
+		}
+	]
+}

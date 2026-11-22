@@ -1,0 +1,131 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "qol_mods"
+	group: ""
+	icon: {
+		id: "minecraft:compass"
+	}
+	id: "41C5AC5A8DAE862B"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4098698A9A1E1583"
+			tasks: [{
+				id: "29796E92A772B146"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "5214F91287D80E43"
+			tasks: [{
+				id: "4C56085E70D20886"
+				item: { count: 1, id: "handcrafted:oak_chair" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "6C66239AB766D886"
+			tasks: [{
+				id: "09D9445CCCD9EF14"
+				item: { count: 1, id: "artifacts:eternal_steak" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "498B46B890735B82"
+			tasks: [
+				{
+					id: "4A2E825FC9FAFA5B"
+					item: { count: 1, id: "createchromaticreturn:radiant_glow_saber" }
+					type: "item"
+				}
+				{
+					id: "1350441C95551070"
+					item: { count: 1, id: "createchromaticreturn:radiant_glow_claws" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "70A45B51E9374A0D"
+			tasks: [{
+				id: "326E9E6C8922DB8C"
+				item: { count: 1, id: "skinnedcarts:turtle_minecart" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "512D1E50513754E6"
+			tasks: [{
+				id: "7ACD09E8A491A534"
+				item: { count: 1, id: "farmersdelight:stove" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "16BBC50059227084"
+			tasks: [{
+				id: "265FB2A195869073"
+				item: { count: 1, id: "easy_villagers:trader" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "0D7069552EB099D4"
+			tasks: [{
+				id: "570B07042B4FE019"
+				item: { count: 1, id: "mutantmonsters:hulk_hammer" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "6B6985249AD92B24"
+			tasks: [{
+				id: "2B8CF3545C3A3CD7"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "27474DC1059FC89D"
+			tasks: [{
+				id: "2B76CA74DB4F03AC"
+				item: { count: 1, id: "hangglider:hang_glider" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "2EDB5CC8ACFC94E0"
+			tasks: [{
+				id: "292E4AF5E8D46DB3"
+				item: { count: 1, id: "expandedstorage:netherite_chest" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+	]
+}

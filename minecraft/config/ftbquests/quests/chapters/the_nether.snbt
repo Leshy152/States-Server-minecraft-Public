@@ -1,0 +1,737 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_nether"
+	group: "0439EE228A7D0B2A"
+	icon: {
+		id: "minecraft:netherite_block"
+	}
+	id: "3637ACB77F8AD097"
+	images: [
+		{
+			height: 3.0d
+			id: "33EB92F6066125AE"
+			image: "kubejs:textures/gui/wither.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.5982142857142918d
+			y: 4.4071428571428655d
+		}
+		{
+			height: 2.0d
+			id: "252DC143025814F6"
+			image: "kubejs:textures/gui/witherskeleton.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5803571428571317d
+			y: 4.264285714285727d
+		}
+		{
+			height: 2.0d
+			id: "50F23C1C5752C2F0"
+			image: "kubejs:textures/gui/witherskeleton.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.7232142857142776d
+			y: 4.157142857142873d
+		}
+		{
+			height: 2.0d
+			id: "1CEBD77FDA32A161"
+			image: "kubejs:textures/gui/witherskeleton.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.473214285714278d
+			y: 3.0500000000000185d
+		}
+		{
+			height: 3.0d
+			id: "325D54B86A742D76"
+			image: "kubejs:textures/gui/hoglin.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.848214285714299d
+			y: -0.5571428571428427d
+		}
+		{
+			height: 2.0d
+			id: "150058D34B4940C5"
+			image: "kubejs:textures/gui/magmacube.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.223214285714278d
+			y: -3.878571428571412d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "090DF39E5EEF1F77"
+			rewards: [
+				{
+					count: 10
+					id: "0FEF399EB1E70FA2"
+					item: {
+						count: 1
+						id: "minecraft:gold_nugget"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "663B613925758FCF"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: {
+					id: "minecraft:netherrack"
+				}
+				id: "171D21CB85A08718"
+				type: "dimension"
+			}]
+			x: 0.017857142857153008d
+			y: 0.3214285714285694d
+		}
+		{
+			dependencies: ["090DF39E5EEF1F77"]
+			id: "37BB358B453B1F45"
+			rewards: [
+				{
+					count: 5
+					id: "13E91F897D7ECBA1"
+					item: {
+						count: 1
+						id: "minecraft:glowstone_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2F4E95C923E2A411"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "65C28EA5CF12A4FB"
+					item: { count: 1, id: "minecraft:quartz" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "6C503BB0553A8DB2"
+					item: { count: 1, id: "minecraft:netherrack" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5FD3A1AFF7FEB80C"
+					item: { count: 1, id: "minecraft:gold_nugget" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["090DF39E5EEF1F77"]
+			id: "2634D9471FC0977B"
+			rewards: [{
+				id: "709DAC48A2A4D9DB"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_golden_apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:nether_brick_fence"
+				}
+				id: "4A8BEBC393785011"
+				structure: "minecraft:fortress"
+				type: "structure"
+			}]
+			x: -1.6607142857142776d
+			y: 1.1785714285714164d
+		}
+		{
+			dependencies: ["37BB358B453B1F45"]
+			id: "1FF699768BEC2CC1"
+			rewards: [{
+				count: 5
+				id: "4222C9EBAC7E48F0"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "143980F8B779AC85"
+				item: { count: 1, id: "minecraft:glowstone_dust" }
+				type: "item"
+			}]
+			x: 2.5892857142857153d
+			y: -2.0428571428571516d
+		}
+		{
+			dependencies: ["37BB358B453B1F45"]
+			id: "2ADC60F1E06D0036"
+			rewards: [{
+				count: 5
+				id: "3016B3F694F35189"
+				item: {
+					count: 1
+					id: "minecraft:crying_obsidian"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "7F6815547459AF31"
+				item: { count: 1, id: "minecraft:blackstone" }
+				type: "item"
+			}]
+			x: 3.6964285714285765d
+			y: 0.6357142857142719d
+		}
+		{
+			dependencies: ["2634D9471FC0977B"]
+			id: "10133868BFFDB422"
+			rewards: [
+				{
+					id: "66A926CF275259CE"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7A61AF810097563A"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "3A041BC53B91DE9D"
+				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+				type: "item"
+			}]
+			x: -2.982142857142847d
+			y: 2.8214285714285623d
+		}
+		{
+			dependencies: ["2634D9471FC0977B"]
+			id: "1C3FB3AC58770559"
+			rewards: [{
+				id: "1BB8DE988391328B"
+				item: {
+					count: 1
+					id: "minecraft:brewing_stand"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "101C09B49504E1BE"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: -3.8035714285714164d
+			y: 0.9642857142857082d
+		}
+		{
+			dependencies: ["2634D9471FC0977B"]
+			id: "58B83B3B633FF729"
+			rewards: [{
+				count: 3
+				id: "720BEEB0F0CE4F30"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:long_fire_resistance"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AF669B33F9EBC1A"
+				item: { components: { "minecraft:potion_contents": { potion: "minecraft:fire_resistance" } }, count: 1, id: "minecraft:potion" }
+				type: "item"
+			}]
+			x: -2.6964285714285623d
+			y: -0.392857142857153d
+		}
+		{
+			dependencies: [
+				"10133868BFFDB422"
+				"090DF39E5EEF1F77"
+				"7C26210F80822982"
+			]
+			id: "25E581CB3381F776"
+			rewards: [
+				{
+					id: "4AAEE102633CF9DF"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+				{
+					id: "275956D2A79E82CC"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "diamond"
+			size: 1.7d
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "4A1E1127FD0E1A50"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.3035714285714164d
+			y: 2.8214285714285694d
+		}
+		{
+			dependencies: ["090DF39E5EEF1F77"]
+			id: "6237BF6E6828A294"
+			rewards: [
+				{
+					id: "2DC804EC6B482E25"
+					item: {
+						count: 1
+						id: "minecraft:saddle"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "16E38E9B35EDC5EC"
+					item: {
+						count: 1
+						id: "minecraft:warped_fungus"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:saddle"
+				}
+				id: "29DD54CE0F5C3A54"
+				stat: "minecraft:strider_one_cm"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.767857142857153d
+			y: -1.614285714285721d
+		}
+		{
+			dependencies: ["090DF39E5EEF1F77"]
+			id: "1DEB9EF986ABCE77"
+			rewards: [
+				{
+					count: 16
+					id: "34BE9B044CBD4F13"
+					item: {
+						count: 1
+						id: "minecraft:warped_stem"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "669AC3097557C0B3"
+					item: {
+						count: 1
+						id: "minecraft:warped_fungus"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:warped_forest"
+				icon: {
+					id: "minecraft:warped_stem"
+				}
+				id: "6F899DD06591A33C"
+				type: "biome"
+			}]
+			x: -1.3035714285714022d
+			y: -1.564285714285699d
+		}
+		{
+			dependencies: [
+				"090DF39E5EEF1F77"
+				"37BB358B453B1F45"
+			]
+			id: "7C26210F80822982"
+			rewards: [
+				{
+					count: 5
+					id: "52ED2248B36A8C9F"
+					item: {
+						count: 1
+						id: "minecraft:soul_torch"
+					}
+					type: "item"
+				}
+				{
+					id: "0D5E5AFA1E59EE92"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:soul_speed": 2
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "1CD85F90AD3D0885"
+					item: { count: 1, id: "minecraft:soul_sand" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "19FF103C3FCF7555"
+					item: { count: 1, id: "minecraft:soul_soil" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0CDD87E3F3A12E1E"
+					item: { count: 1, id: "minecraft:bone_block" }
+					type: "item"
+				}
+			]
+			x: 2.0892857142857153d
+			y: 2.028571428571418d
+		}
+		{
+			dependencies: ["37BB358B453B1F45"]
+			id: "2A9756FDFD7F1EA1"
+			rewards: [
+				{
+					count: 32
+					id: "29023435DA2F0475"
+					item: {
+						count: 1
+						id: "minecraft:cooked_porkchop"
+					}
+					type: "item"
+				}
+				{
+					id: "2E7C90726C6F6B20"
+					item: {
+						count: 1
+						id: "artifacts:universal_attractor"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:hoglin"
+				id: "6EF90927B7E38C7B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.750000000000014d
+			y: -0.8785714285714192d
+		}
+		{
+			dependencies: ["7C26210F80822982"]
+			id: "38958B3E4F44570E"
+			rewards: [
+				{
+					id: "3A7B9719A3273087"
+					item: {
+						count: 1
+						id: "minecraft:wither_skeleton_skull"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0B84CE9D793D6B64"
+					item: {
+						count: 1
+						id: "minecraft:spectral_arrow"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:ghast"
+					id: "1203BED1E0711FAE"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "minecraft:wither_skeleton"
+					id: "6BCE279D7B54DC8B"
+					type: "kill"
+					value: 5L
+				}
+			]
+			x: 3.6964285714285765d
+			y: 1.885714285714279d
+		}
+		{
+			dependencies: ["37BB358B453B1F45"]
+			id: "7A4BB87DC51A9E17"
+			rewards: [
+				{
+					count: 16
+					id: "78A5E139712FD2CA"
+					item: {
+						count: 1
+						id: "minecraft:crimson_fungus"
+					}
+					type: "item"
+				}
+				{
+					id: "4562F4A69A778DAA"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:unbreaking": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "2927330A7E13CCE0"
+					item: { count: 1, id: "minecraft:warped_stem" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "241FB2A591DC7079"
+					item: { count: 1, id: "minecraft:crimson_stem" }
+					type: "item"
+				}
+			]
+			x: 1.0892857142857224d
+			y: -2.75d
+		}
+		{
+			dependencies: ["090DF39E5EEF1F77"]
+			id: "7F7998B5353C6B9D"
+			rewards: [
+				{
+					count: 64
+					id: "0FB93DB2C086069A"
+					item: {
+						count: 1
+						id: "minecraft:polished_basalt"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4E5F24065F5D6205"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_fire_resistance"
+							}
+						}
+						count: 1
+						id: "minecraft:splash_potion"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:basalt_deltas"
+				icon: {
+					id: "minecraft:basalt"
+				}
+				id: "2235961A7056FAEC"
+				type: "biome"
+			}]
+			x: -3.053571428571402d
+			y: -1.7428571428571367d
+		}
+		{
+			dependencies: ["7F7998B5353C6B9D"]
+			id: "3B38CC0C1F8D9C86"
+			rewards: [
+				{
+					count: 20
+					id: "4B073185C9D48737"
+					item: {
+						count: 1
+						id: "minecraft:polished_basalt"
+					}
+					type: "item"
+				}
+				{
+					id: "6FA2FBDC6DEE167C"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:mending": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 64L
+					id: "3572EEC218CFAB32"
+					item: { count: 1, id: "minecraft:basalt" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4F1D9A50ED2DEB1D"
+					item: { count: 1, id: "minecraft:blackstone" }
+					type: "item"
+				}
+			]
+			x: -1.732142857142854d
+			y: -2.821428571428573d
+		}
+		{
+			dependencies: ["7F7998B5353C6B9D"]
+			id: "68799A2B47393641"
+			rewards: [
+				{
+					id: "4C98CCF5358CA47D"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:fire_aspect": 2
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "3C5AB99DBBCA4037"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				id: "6607C1A8A5DFFD18"
+				type: "kill"
+				value: 30L
+			}]
+			x: -4.196428571428548d
+			y: -2.492857142857133d
+		}
+		{
+			dependencies: ["7F7998B5353C6B9D"]
+			icon: {
+				id: "minecraft:gravel"
+			}
+			id: "1BACDD8C2542DD9B"
+			rewards: [
+				{
+					count: 10
+					id: "42D6A42489137B1D"
+					item: {
+						count: 1
+						id: "minecraft:smooth_basalt"
+					}
+					type: "item"
+				}
+				{
+					id: "787422E45F806632"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:efficiency": 4
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "1A2B83269ABE0062"
+					item: { count: 1, id: "minecraft:magma_block" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "7D20F6E94E7360BF"
+					item: { count: 1, id: "minecraft:basalt" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3B40B41A1C2D046A"
+					item: { count: 1, id: "minecraft:gravel" }
+					type: "item"
+				}
+			]
+			x: -4.410714285714278d
+			y: -0.5285714285714178d
+		}
+	]
+}
