@@ -1,6 +1,6 @@
 # Клиент для друга
 
-Сборка Leshy States 1.2.5 для Minecraft **1.21.1** с **NeoForge 21.1.266**.
+Сборка Leshy States 1.2.6 для Minecraft **1.21.1** с **NeoForge 21.1.266**.
 
 1. Склонируй репозиторий или скачай его на GitHub через **Code → Download ZIP** и распакуй.
 2. Открой эту папку и запусти `Prepare-Client.bat`. Он соберёт MoreDiscs из трёх частей, сверит его SHA-256 и откроет папку `minecraft`.
