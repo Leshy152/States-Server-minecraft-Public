@@ -33,7 +33,7 @@ layout_action_executable_blocks {
 
 element {
   button_element_executable_block_identifier = 67897662-908d-422c-9227-7fdc8d73c97e-1742990805544
-  [executable_action_instance:00c3eaa8-a50a-4441-a1da-c85b3e068060-1742990899228][action_type:openlink] = https://discord.gg/QdBBs4Mssz
+  [executable_action_instance:00c3eaa8-a50a-4441-a1da-c85b3e068060-1742990899228][action_type:openlink] = https://discord.gg/3w7Qfjpumc
   [executable_block:67897662-908d-422c-9227-7fdc8d73c97e-1742990805544][type:generic] = [executables:00c3eaa8-a50a-4441-a1da-c85b3e068060-1742990899228;]
   restartbackgroundanimations = true
   loopbackgroundanimations = true

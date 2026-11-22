@@ -28,7 +28,7 @@ scroll_list_customization {
 
 element {
   button_element_executable_block_identifier = f4967d96-efbd-4f39-b917-750526ec219b-1719316507173
-  [executable_action_instance:fa12fa93-3006-46d7-82ee-5cc6ea35df8f-1719316512351][action_type:openlink] = https://discord.gg/EzXSNG6W
+  [executable_action_instance:fa12fa93-3006-46d7-82ee-5cc6ea35df8f-1719316512351][action_type:openlink] = https://discord.gg/3w7Qfjpumc
   [executable_block:f4967d96-efbd-4f39-b917-750526ec219b-1719316507173][type:generic] = [executables:fa12fa93-3006-46d7-82ee-5cc6ea35df8f-1719316512351;]
   restartbackgroundanimations = true
   loopbackgroundanimations = true

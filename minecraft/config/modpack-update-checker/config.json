@@ -4,10 +4,10 @@
   "modpackName": "Create: Vanilla+",
   "modpackAuthor": "Pav",
   "modpackReleaseType": "stable",
-  "githubRepo": "https://raw.githubusercontent.com/Pavelower145/CreateVanilla-/main/",
+  "githubRepo": "",
   "advanced": {
-    "updateCheckerType": 2,
-    "addButton": true,
-    "mainMenuCreditsIntegration": true
+    "updateCheckerType": 0,
+    "addButton": false,
+    "mainMenuCreditsIntegration": false
   }
 }
