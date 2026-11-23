@@ -2,7 +2,7 @@
 	"//": "These settings are easier to change in-game! Mod List -> Double Doors -> Config",
 	"Enable Double Doors": {
 		"//": "Whether Double Doors is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
-		"value": true
+		"value": false
 	},
 	"enableRecursiveOpening": {
 		"//": "Whether the recursive opening feature should be enabled. This allows you to for example build a giant door with trapdoors which will all open at the same time, as long as they are connected. The 'recursiveOpeningMaxBlocksDistance' config option determines how far the function should search.",
