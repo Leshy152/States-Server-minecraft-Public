@@ -205,7 +205,7 @@
 			#Multiplier for the amount of cascade foam
 			# Default: 1.0
 			# Range: 0.1 ~ 4.0
-			foamDensity = 1.0
+			foamDensity = 0.30
 			#Multiplier for the size of cascade foam puffs
 			# Default: 1.0
 			# Range: 0.25 ~ 4.0
@@ -213,7 +213,7 @@
 			#Multiplier for the amount of cascade mist
 			# Default: 1.0
 			# Range: 0.0 ~ 2.0
-			mistDensity = 1.0
+			mistDensity = 0.35
 
 		[general.advancedSettings.leafSnowSettings]
 			#Chance of snow falling off a leaf block (higher = less frequent). Twice as frequent while it is snowing
